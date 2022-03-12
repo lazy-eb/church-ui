@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.navbar-background {
+  background-color: #F2F3F5;
+}
+.navbar-background .navbar-nav .nav-link {
+  color: #141964;
+  font-weight: 600;
+}
+.navbar-background .navbar-brand,
+.navbar-background .navbar-text {
+  color: #141964;
+}
+.navbar-background .navbar-brand{
+  font-weight: bolder;
+}
+.navbar-background .navbar-brand:hover{
+  color: #3A516B;
+}
+.navbar-background .nav-item.active .nav-link,
+.navbar-background .nav-item:hover .nav-link {
+  color: #627086;
+}
+
+.welcome-custom-class .card-header {
+  background-color: #F8F9FA;
+  color: #141964;
+  font-size: larger;
+}
+
+.welcome-custom-class .card-title {
+  color: #141964;
+  font-weight: bold;
+}
+
+.welcome-custom-class .card-text{
+  color: #6C757D;
+}
+
+.vision-custom-class .card-body{
+  background-color: #E9EFFE;
+  text-align: center;
+}
+
+.vision-custom-class .card-text{
+  color: #0A2544;
+}
+
+.copyright-footer {
+  background-color: #627086;
+}
+
+#facebook-icon {
+  color: #2D49F5;
+}
+#instagram-icon {
+  color: #E9008D;
+}
+#youtube-icon {
+  color: #FF0000;
+}
+
+.footer-contact-custom-class .card-body{
+  background-color: #252525;
+  text-align: center;
+}
+
+.footer-contact-custom-class .card-text{
+  color: #EAEAEA;
+}
+
+.verses-custom-class {
+  height: 20vh;
+}
+
+.verses-custom-class .card-text{
+  color: #040135;
+  text-align: center;
+}
+
+.verses-custom-class .card-body{
+  background-color: #cad1ff;
+}
+
+.reflection-custom-class .card-text{
+  color: #040135;
+  text-align: center;
+}
+
+.reflection-custom-class .card-body{
+  background-color: #fff5b9;
+}
+
+@media (min-width: 978px) {
+  .reflection-custom-class .card-body{
+    padding: 5% 20%;
+  }
+  .welcome-custom-class .card-body{
+    padding: 3% 15%;
+  }
+  .welcome-custom-class .card-header{
+    padding: 1% 15%;
+  }
+  .image-carousel {
+    height: 400px;
+  }
+  
+  .image-carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+  }
+  
+}
+@media (max-width: 978px) {
+  .reflection-custom-class .card-body{
+    padding: 10% 8%;
+  }
+  .welcome-custom-class .card-body{
+    padding: 10% 8%;
+  }
+  .welcome-custom-class .card-header{
+    padding: 4% 8%;
+  }
+  .image-carousel {
+    height: 250px;
+  }
+  
+  .image-carousel img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 250px;
+  }
+  
+}
