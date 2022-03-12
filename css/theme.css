@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-bg{
+    background-color: #EBFCFB;
+}
+header h1{
+    font-size: 5vw;
+}
