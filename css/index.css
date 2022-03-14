@@ -95,11 +95,19 @@ body{
 }
 
 .reflection-custom-class {
-  background-color: #fff7c8;
+  /* background-color: #fff7c8; */
+  background-color: #FF8811;
+
+}
+
+
+.reflection-custom-class .card-title, .blockquote{
+  color: #F8F9FA;
 }
 
 .reflection-custom-class .card-text{
-  color: #040135;
+  /* color: #040135; */
+  color: #fff7c8;
   text-align: center;
 }
 
