@@ -8,49 +8,47 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 .navbar-background {
-  background-color: #F2F3F5;
+  background-color: #F8F9FA;
 }
 .navbar-background .navbar-nav .nav-link {
-  color: #141964;
-  font-weight: 600;
+  color: #121138;
 }
 .navbar-background .navbar-brand,
 .navbar-background .navbar-text {
-  color: #141964;
+  color: #121138;
 }
 .navbar-background .navbar-brand{
-  font-weight: bolder;
+  font-weight: bold;
 }
 .navbar-background .navbar-brand:hover{
   color: #3A516B;
 }
 .navbar-background .nav-item.active .nav-link,
 .navbar-background .nav-item:hover .nav-link {
-  color: #627086;
-}
-
-.welcome-custom-class .card-header {
-  background-color: #F8F9FA;
-  color: #141964;
-  font-size: larger;
+  color: #7e7ba2;
 }
 
 .welcome-custom-class .card-title {
-  color: #141964;
+  color: #F8F9FA;
   font-weight: bold;
+  font-size: x-large;
 }
 
 .welcome-custom-class .card-text{
-  color: #6C757D;
+  color: #7e7ba2;
+}
+
+.welcome-custom-class .card-body{
+  background-color: #121138;
 }
 
 .vision-custom-class .card-body{
-  background-color: #E9EFFE;
+  /* background-color: #E9EFFE; */
   text-align: center;
 }
 
 .vision-custom-class .card-text{
-  color: #0A2544;
+  color: #121138;
 }
 
 .copyright-footer {
@@ -68,12 +66,14 @@ body{
 }
 
 .footer-contact-custom-class .card-body{
-  background-color: #252525;
+  /* background-color: #121138; */
+  background-color: #F8F9FA;
   text-align: center;
 }
 
 .footer-contact-custom-class .card-text{
-  color: #EAEAEA;
+  /* color: #EAEAEA; */
+  color: #121138;
 }
 
 .verses-custom-class {
@@ -86,7 +86,16 @@ body{
 }
 
 .verses-custom-class .card-body{
-  background-color: #cad1ff;
+  /* background-color: #cad1ff; */
+  background-color: #E9EFFE;
+}
+
+.verses-carousel {
+  background-color: #E9EFFE;
+}
+
+.reflection-custom-class {
+  background-color: #fff7c8;
 }
 
 .reflection-custom-class .card-text{
@@ -94,16 +103,37 @@ body{
   text-align: center;
 }
 
-.reflection-custom-class .card-body{
-  background-color: #fff5b9;
+.text-container{
+  background-image: url('../img/watch-tower.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.text-content{
+  color: #EAEAEA;
+  margin: 0;
+}
+
+.carousel-text {
+  color: #EAEAEA;
+  font-size: x-large;
+  margin: 10%;
+  line-height: 220%;
+  white-space: initial;
+}
+
+.youtube-content {
+  background-color: #121138;
+  color: #F8F9FA;
 }
 
 @media (min-width: 978px) {
   .reflection-custom-class .card-body{
-    padding: 5% 20%;
+    padding: 10% 20%;
   }
   .welcome-custom-class .card-body{
-    padding: 3% 15%;
+    padding: 10% 15%;
   }
   .welcome-custom-class .card-header{
     padding: 1% 15%;
@@ -125,7 +155,7 @@ body{
     padding: 10% 8%;
   }
   .welcome-custom-class .card-body{
-    padding: 10% 8%;
+    padding: 13% 8%;
   }
   .welcome-custom-class .card-header{
     padding: 4% 8%;
